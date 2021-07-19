@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #d6f4f4;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 4rem;
+  text-align: center;
+  color: transparent;
+  font-family: 'Bungee', cursive;
+  text-shadow: 0px 5px 0px #07bccc,
+    0px 7px 0px #e601c0,
+    0px 10px 0px #e9019a,
+    0px 12px 0px #f40468,
+    0px 22px 10px #482896;
+  cursor: pointer;
+}
+
+main:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+}

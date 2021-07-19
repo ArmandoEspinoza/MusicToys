@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/writter.css">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/piano.css">
+  <title>Music Toys - Piano</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <a href="/html/muisicToys.html"><li>Home</li></a>
+      <a href="/html/piano.html"><li>Piano</li></a>
+      <a href="/html/drumpad.html"><li>DrumPad</li></a>
+      <a href="/html/metronome.html"><li>Metronome</li></a>
+      <a href="/html/about.html"><li>About</li></a>
+    </ul>
+  </nav>
+
+  <div class="boxing">
+  <main >Piano</main>
+
+
+  <!--Piano-->
+  <div id="piano">
+    <div id="piano-container">
+      <li>                
+        <div data-note="C" class="key white">                        
+        </div>
+        <div data-note="Db" class="key black">
+        </div>    
+      </li> 
+      <li>                
+        <div data-note="D" class="key white">                         
+        </div>
+        <div data-note="Eb" class="key black">
+        </div>   
+      </li> 
+      <li>                
+        <div data-note="E" class="key white">                            
+        </div>
+      </li> 
+      <li>                
+        <div data-note="F" class="key white">                      
+        </div>
+        <div data-note="Gb" class="key black">
+        </div>      
+      </li> 
+      <li>                
+        <div data-note="G" class="key white">                            
+        </div>
+        <div data-note="Ab" class="key black">
+        </div>
+      </li> 
+      <li>                
+        <div data-note="A" class="key white">                        
+        </div>
+        <div data-note="Bb"class="key black">
+        </div>    
+      </li> 
+      <li>                
+        <div data-note="B" class="key white">                          
+        </div>
+      </li>                     
+    </div>
+  </div>
+  
+  <audio id="C" src="/html/notes/C.mp3"></audio>
+  <audio id="Db" src="/html/notes/Db.mp3"></audio>
+  <audio id="D" src="/html/notes/D.mp3"></audio>
+  <audio id="Eb" src="/html/notes/Eb.mp3"></audio>
+  <audio id="E" src="/html/notes/E.mp3"></audio>
+  <audio id="F" src="/html/notes/F.mp3"></audio>
+  <audio id="Gb" src="/html/notes/Gb.mp3"></audio>
+  <audio id="G" src="/html/notes/G.mp3"></audio>
+  <audio id="Ab" src="/html/notes/Ab.mp3"></audio>
+  <audio id="A" src="/html/notes/A.mp3"></audio>
+  <audio id="Bb" src="/html/notes/Bb.mp3"></audio>
+  <audio id="B" src="/html/notes/B.mp3"></audio>
+  </div>
+  
+<br>
+<p>the tone keys are played from C to B with: ['a', 's', 'd', 'f', 'g', 'h', 'j']</p>
+<p>the semi-tone keys are played from C # to A # with: ['w', 'e', ​​'t', 'y', 'u']</p>
+
+  <script src="/js/piano.js"></script>
+</body>
+</html>

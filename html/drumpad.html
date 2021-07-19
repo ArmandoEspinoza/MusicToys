@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/drumpad.css">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/writter.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="/css/nav.css">
+  <title>Music Toys - Drumpad</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <a href="/html/muisicToys.html"><li>Home</li></a>
+      <a href="/html/piano.html"><li>Piano</li></a>
+      <a href="/html/drumpad.html"><li>DrumPad</li></a>
+      <a href="/html/metronome.html"><li>Metronome</li></a>
+      <a href="/html/about.html"><li>About</li></a>
+    </ul>
+  </nav>
+
+  <div class="boxing">
+  <main >Drumpad</main>
+
+<!--Drumpad-->
+<div id="drumpad">
+  <li>
+  <div data-note="Snap" class="pad"> <h4>Snap</h4> </div>
+  <div data-note="cymbal" class="pad"><h4>Cymbal</h4></div> 
+  <div data-note="hihat" class="pad"><h4>Hi-Hat</h4></div> <br>
+</li>
+<li>
+  <div data-note="kick" class="pad"><h4>Kick</h4></div> 
+  <div data-note="snare" class="pad"><h4>Snare</h4></div> 
+  <div data-note="clap" class="pad"><h4>Clap</h4></div> <br>
+</li>
+
+  <br> <br>
+  <center>
+  <h1 class="drumTitle">¡Drop the beat!</h1>
+</center>
+</div>
+
+<audio id="kick" src="/html/drums/kick.wav"></audio>
+<audio id="snare" src="/html/drums/snare.wav"></audio>
+<audio id="clap" src="/html/drums/clap.wav"></audio>
+<audio id="Snap" src="/html/drums/Snap.wav"></audio>
+<audio id="cymbal" src="/html/drums/cymbal.wav"></audio>
+<audio id="hihat" src="/html/drums/hihat.wav"></audio>
+
+<br>
+<p>This instrument is still in beta phase, so some functionalities may not work properly, more and better sounds and functions will be added in the future!</p>
+
+  <script src="/js/drumpad.js"></script>
+</body>
+</html>

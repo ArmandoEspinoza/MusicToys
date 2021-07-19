@@ -1,0 +1,22 @@
+.navbar{
+  text-align: center;
+  
+}
+
+.navbar li{
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+} .navbar li:hover {
+  color: #2EE59D;
+  transform: translateY(-3px);
+}

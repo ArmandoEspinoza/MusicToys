@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/writter.css">
+  <link rel="stylesheet" href="/css/card.css">
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/metronome.css">
+  <title>Music Toys - Metronome</title>
+</head>
+<body>
+  <center>
+  <nav class="navbar">
+    <ul>
+      <a href="/html/muisicToys.html"><li>Home</li></a>
+      <a href="/html/piano.html"><li>Piano</li></a>
+      <a href="/html/drumpad.html"><li>DrumPad</li></a>
+      <a href="/html/metronome.html"><li>Metronome</li></a>
+      <a href="/html/about.html"><li>About</li></a>
+    </ul>
+  </nav>
+
+  <main >Metronome</main>
+
+
+  <!--Metronome-->
+  <div class="met-container">
+    <div class="met">
+    <div class="top">
+      <div class="circle"></div>
+      <div class="circle2"></div>
+      <div class="tempo">150</div>
+      <div class="play-pause-btn">
+        <svg id="playSVG" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M75 50L37.5 71.6506V28.3494L75 50Z" fill="#e601c0"/>
+        </svg>
+        <svg id="pauseSVG" width="100" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="64" y="25" width="20" height="50" fill="#e601c0"/>
+          <rect x="24" y="25" width="20" height="50" fill="#e601c0"/>
+        </svg>
+      </div>
+
+    </div>
+    <div class="slider-container">
+        <input type="range" min="1" max="300" value="150" id="rangeSlider">
+    </div>
+    </div>
+  </div>	
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>This instrument is still in alpha phase, for the moment just works with bpm markers, more functions will be added in the future!</p>
+</center>
+
+
+<script src="/js/metronome.js"></script>
+</body>
+</html>

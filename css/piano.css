@@ -1,0 +1,84 @@
+/*piano*/
+
+#piano{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width:600px;
+  height:300px;
+  margin:auto;
+  border-radius:5px 5px 5px 5px;
+  overflow:hidden;
+  background: #e601c0;
+  border:2px solid #482896;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.key{
+  margin:auto;
+}
+
+#piano-container {
+  width:95%;
+  height:230px;
+  background:#fff;
+  margin:60px auto 0 auto;
+  transition: all 2.0s;
+} #piano:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+  transform: translateY(-3px);
+}
+
+
+
+#piano-container li {
+  width:14.28%;
+  height:100%;
+  float:left;
+  list-style-type:none;
+  position:relative;
+}
+
+
+.white {
+  width:100%;
+  height:100%;
+  float:left;
+  border:2px solid #482896;
+  border-radius:0 0 5px 5px;
+  position:relative;
+  z-index:1;
+  background: white;
+}
+.white:active {
+background: #482896;
+}
+
+.black {
+  position:absolute;
+  z-index:2;
+  width:70%;
+  height:120px;
+  border:2px solid #482896;
+  border-radius:0 0 5px 5px;
+  background: #07bccc;
+  right:-35%;
+  
+}
+.black:active{
+  background: #482896;
+}
+/*Piano*/
+p {
+  text-align:center;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+}
